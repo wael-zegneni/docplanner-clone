@@ -2,9 +2,14 @@
   @include flexbox(row, space-around, center);
   padding: 15px 30px;
   box-shadow: $box-shadow;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
 
   @media (max-width: 768px) {
     @include flexbox(column, space-around, center);
+    position: static;
   }
 
   &__logo {
