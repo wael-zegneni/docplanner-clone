@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/docplanner-clone/static/css/main.8cfbdcea.css",
+    "main.js": "/docplanner-clone/static/js/main.e5b27ae3.js",
+    "static/media/bogota.png": "/docplanner-clone/static/media/bogota.2bcdc0e91ab64a95b527.png",
+    "static/media/rio-janeiro.png": "/docplanner-clone/static/media/rio-janeiro.de8609a6d55a134321db.png",
+    "static/media/docplanner-logo.png": "/docplanner-clone/static/media/docplanner-logo.c266eb050303a47ac82c.png",
+    "static/media/mexico-city.png": "/docplanner-clone/static/media/mexico-city.b10d41b75fa847eb59b4.png",
+    "static/media/rome.png": "/docplanner-clone/static/media/rome.a190ace8dd2cbed2897a.png",
+    "static/media/curitiba.png": "/docplanner-clone/static/media/curitiba.ec10d35384ccc49fe3d7.png",
+    "static/media/barcelona.png": "/docplanner-clone/static/media/barcelona.3a821af397b1af117f6f.png",
+    "static/media/bologna.png": "/docplanner-clone/static/media/bologna.9fd630d5b146b00ec695.png",
+    "static/media/munich.png": "/docplanner-clone/static/media/munich.24e86781e1b336dff661.png",
+    "static/media/istanbul.png": "/docplanner-clone/static/media/istanbul.1daf0e7c75c15c3aa16d.png",
+    "static/media/warsaw.png": "/docplanner-clone/static/media/warsaw.067620d1d9092520be17.png",
+    "static/media/logo-clinicloud.svg": "/docplanner-clone/static/media/logo-clinicloud.3b17199447f5f7b4e2323c76a4fa794e.svg",
+    "static/media/my-dr-edm-logo.svg": "/docplanner-clone/static/media/my-dr-edm-logo.6fd73c570b9997ab84d490c02dcf14a9.svg",
+    "static/media/logo-feegow.svg": "/docplanner-clone/static/media/logo-feegow.0805aeaebb7c3f35aa014f8e74358d84.svg",
+    "static/media/logo-gipo-primary.svg": "/docplanner-clone/static/media/logo-gipo-primary.37df1f553ec0fdbb28e26bbd4470daa2.svg",
+    "static/media/logo-jameda.svg": "/docplanner-clone/static/media/logo-jameda.9a69a8d02572e7ac9400c644f68b680e.svg",
+    "static/media/icon-clinics.svg": "/docplanner-clone/static/media/icon-clinics.48fd497d6e6ac85306fc56282d727496.svg",
+    "static/media/icon-patients.svg": "/docplanner-clone/static/media/icon-patients.65d7601e1a511301ce24d6e7dfb383b5.svg",
+    "static/media/logo-tuotempo.svg": "/docplanner-clone/static/media/logo-tuotempo.d882a835555426d19a7413066036ba3e.svg",
+    "static/media/icon-doctors.svg": "/docplanner-clone/static/media/icon-doctors.b7e142deda58cbd9b2171a1861be0f5e.svg",
+    "index.html": "/docplanner-clone/index.html",
+    "main.8cfbdcea.css.map": "/docplanner-clone/static/css/main.8cfbdcea.css.map",
+    "main.e5b27ae3.js.map": "/docplanner-clone/static/js/main.e5b27ae3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cfbdcea.css",
+    "static/js/main.e5b27ae3.js"
+  ]
+}
