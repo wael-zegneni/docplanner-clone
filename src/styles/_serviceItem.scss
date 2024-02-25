@@ -1,0 +1,73 @@
+.service-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 2em;
+  text-align: start;
+  margin-bottom: 30px;
+  height: 350px;
+  width: 24%;
+  background-color: rgb(201, 201, 201);
+  @include flexbox(column, space-around, space-between);
+  font-family: Work Sans, Arial, sans-serif;
+  transition: 0.3s ease-in-out;
+
+
+  &:hover {
+    filter: brightness(1.1);
+  }
+
+  &--blue {
+    background-color: $primary-color;
+  }
+
+  &--green {
+    background-color: $secondary-color;
+  }
+
+  &--black {
+    background-color: $accent-color;
+  }
+
+  @media (max-width: 768px) {
+    width: 70%;
+  }
+
+  &__icon {
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    font-size: $font-size-large;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: 400;
+  }
+
+  &__description {
+    font-size: $font-size-medium;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 300;
+  }
+
+  &__select {
+    .custom-select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+      font-size: 16px;
+      color: white;
+      background-color: transparent;
+      outline: none;
+      border: none;
+      text-decoration: underline solid;
+      width: max-content;
+
+      option {
+        color: #707070;
+      }
+    }
+  }
+}

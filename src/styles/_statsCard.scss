@@ -1,0 +1,35 @@
+.stats-card {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(126, 126, 126, 0.1);
+  height: 230px;
+  width: 210px;
+  @include flexbox(column, space-evenly, center);
+  background-color: #FFFFFF;
+
+  @media (max-width: 768px) {
+    margin-top: 20px;
+}
+
+  h3 {
+    font-size: 1.5em;
+    text-align: center;
+    color: $primary-color;
+    font-weight: 300;
+  }
+
+  p {
+    font-size: $font-size-smallest;
+    text-align: center;
+    color: $text-color;
+    font-weight: 200;
+  }
+}
+
+.card-raise {
+  margin-top: -20px; 
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+}
+}

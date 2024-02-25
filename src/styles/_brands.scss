@@ -1,0 +1,56 @@
+.brands {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 768px) {
+        @include flexbox(column, space-around, center)
+    }
+  
+    h1 {
+        width: 33%;
+        font-size: $font-size-large;
+        color: $primary-color;
+        font-weight: 300;
+        font-family: "work sans";
+
+        @media (max-width: 768px) {
+            width: 90%;
+        }
+    }
+  
+    .brands__logos {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 0;
+        gap: 20px;
+        list-style: none;
+        width: 67%;
+
+        @media (max-width: 768px) {
+          width: 100%;
+          margin-top: 20px;
+      }
+  
+      li {
+        font-size: 1rem;
+        display: inline-block;
+        margin-top: 0;
+        width: 25%;
+  
+        img {
+          height: 20px;
+          filter: grayscale(1);
+
+          &:hover {
+            filter: grayscale(0);
+            transition: 0.2s ease-in-out;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,14 @@
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin: 50px 0;
+  background-color: #DEF8F7 ;
+  overflow: hidden;
+  max-height: 80vh;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    max-height: max-content;;
+  }
+}

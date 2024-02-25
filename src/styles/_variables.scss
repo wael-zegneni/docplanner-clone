@@ -6,11 +6,13 @@ $text-color: #747474;
 
 $font-primary: 'Roboto', Arial, sans-serif;
 
-$font-size-base: 1rem; 
-$font-size-smallest: 0.875rem; 
-$font-size-small: 0.9375rem; 
+
+$font-size-smallest: 0.875em; 
+$font-size-small: 0.9375em; 
+$font-size-base: 1em; 
+$font-size-medium: 1.5em; 
 $font-size-large: 1.625em;
-$font-size-larger: 2.125rem;
+$font-size-larger: 2.125em;
 
 $breakpoints: (
   'sm': 576px,

@@ -1,0 +1,33 @@
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    color: $link-color;
+    font-size: 0.8em;
+    margin-top: 4em;
+  
+    .section__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+      p {
+        margin-bottom: 10px;
+        line-height: 1.4;
+        text-align: center;
+  
+        a {
+          color: #4fa1f3;
+          text-decoration: none;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  

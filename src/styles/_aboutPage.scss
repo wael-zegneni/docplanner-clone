@@ -1,0 +1,8 @@
+.margin__section {
+    max-width: 1015px;
+    margin: 0 auto;
+
+    @media (max-width: 768px) {
+        margin: 0 80px;
+    }
+}

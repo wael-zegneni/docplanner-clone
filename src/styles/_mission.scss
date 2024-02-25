@@ -1,0 +1,41 @@
+.mission {
+  text-align: center;
+  padding: 40px 0;
+
+  &__logo {
+    margin: 0 auto 30px; 
+    width: 40px; 
+  }
+
+  h1 {
+    font-size: $font-size-larger; 
+    color: $primary-color; 
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px; 
+    letter-spacing: -.3px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    margin: 0 auto; 
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  &__column {
+    flex-basis: 47%; 
+    margin-top: 2em; 
+    text-align: left;
+
+    p {
+      font-size: $font-size-base; 
+      line-height: 1.6; 
+      color: $text-color; 
+    }
+  }
+}
